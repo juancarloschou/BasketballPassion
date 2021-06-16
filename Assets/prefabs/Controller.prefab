@@ -1,0 +1,297 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &169682
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 476120}
+  - 114: {fileID: 11467612}
+  - 114: {fileID: 11487300}
+  - 114: {fileID: 11484040}
+  - 114: {fileID: 11423724}
+  - 114: {fileID: 11428770}
+  - 114: {fileID: 11448592}
+  m_Layer: 0
+  m_Name: Controller
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &476120
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 169682}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11423724
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 169682}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c5b9adb10f59bb46b71a1ec1702c92f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  basketball: {fileID: 100000, guid: 8018191d0a1a0c94ab1d8f68b25cdc74, type: 2}
+  CurrentBall: {fileID: 0}
+  ind: []
+  parte: 0
+  time: 0
+  escala: 0
+  ballX: 0
+  ballY: 0
+  manoX: 0
+  manoY: 0
+  Replay: {fileID: 2800000, guid: eded6fc58045e2a4d8d44fce5df7f8fe, type: 3}
+  OK: {fileID: 2800000, guid: 4adcad7ecdd203a4a96c322120279b1f, type: 3}
+--- !u!114 &11428770
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 169682}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 492ff1772f3898b40a8c5a002acf836d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  newSkin: {fileID: 0}
+  Equis: {fileID: 2800000, guid: bc654002eae6ab24ab76d1db8b9599c2, type: 3}
+  OK: {fileID: 2800000, guid: 4adcad7ecdd203a4a96c322120279b1f, type: 3}
+  Replay: {fileID: 2800000, guid: eded6fc58045e2a4d8d44fce5df7f8fe, type: 3}
+  alert: 0
+  alertMsg: 
+  videoOK: 0
+--- !u!114 &11448592
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 169682}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9495b3d1bac9e4c45820ff470ad10613, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OK: {fileID: 2800000, guid: 4adcad7ecdd203a4a96c322120279b1f, type: 3}
+  esInicio: 0
+  round: 0
+--- !u!114 &11467612
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 169682}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0073b03da657ef48a8a6fa7874b1afc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  balls: 10
+  max_balls: 0
+  ball: 0
+  limit: 5
+  score: 0
+  default_score: 100
+  combo: 0
+  cleans: 0
+  banks: 0
+  longs: 0
+  uphighs: 0
+  tricks: 0
+  down: 0
+  end_it: 0
+  basketball: {fileID: 100000, guid: 8018191d0a1a0c94ab1d8f68b25cdc74, type: 2}
+  CurrentBall: {fileID: 0}
+  ind: []
+  esTutorial: 0
+  round: 0
+--- !u!114 &11484040
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 169682}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2bad4dc0cbe6c5f4f9f3e1a3c1de3c16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  newSkin: {fileID: 0}
+  StyleButton:
+    m_Name: 
+    m_Normal:
+      m_Background: {fileID: 2800000, guid: d4885052260d9d84d9fe1c48e9b57526, type: 3}
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_Hover:
+      m_Background: {fileID: 0}
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_Active:
+      m_Background: {fileID: 0}
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_Focused:
+      m_Background: {fileID: 0}
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_OnNormal:
+      m_Background: {fileID: 0}
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_OnHover:
+      m_Background: {fileID: 0}
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_OnActive:
+      m_Background: {fileID: 0}
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_OnFocused:
+      m_Background: {fileID: 0}
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_Border:
+      m_Left: 9
+      m_Right: 9
+      m_Top: 9
+      m_Bottom: 9
+    m_Margin:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Padding:
+      m_Left: 10
+      m_Right: 10
+      m_Top: 10
+      m_Bottom: 10
+    m_Overflow:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Font: {fileID: 0}
+    m_FontSize: 0
+    m_FontStyle: 0
+    m_Alignment: 4
+    m_WordWrap: 0
+    m_RichText: 1
+    m_TextClipping: 1
+    m_ImagePosition: 0
+    m_ContentOffset: {x: 0, y: 0}
+    m_FixedWidth: 0
+    m_FixedHeight: 0
+    m_StretchWidth: 1
+    m_StretchHeight: 0
+  Equis: {fileID: 2800000, guid: bc654002eae6ab24ab76d1db8b9599c2, type: 3}
+  OK: {fileID: 2800000, guid: 4adcad7ecdd203a4a96c322120279b1f, type: 3}
+--- !u!114 &11487300
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 169682}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4a085ec1758ed046bef258f74c2cf80, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  balls: 0
+  round: 0
+  ball: 0
+  limit: 0
+  score: 0
+  record: 0
+  tempscore: 0
+  newSkin: {fileID: 11400000, guid: b41f56e8b73e5314e81b76c189f64dbb, type: 2}
+  ball_img: {fileID: 2800000, guid: 3a6023c7030cf804e89245ab733e99de, type: 3}
+  PausaButton: {fileID: 2800000, guid: 1cc97a8fdc16d554a86997549090214c, type: 3}
+  AyudaButton: {fileID: 2800000, guid: 48e2e936be65cdc468f1d7bfb9cbd83f, type: 3}
+  StyleButton:
+    m_Name: 
+    m_Normal:
+      m_Background: {fileID: 0}
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_Hover:
+      m_Background: {fileID: 0}
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_Active:
+      m_Background: {fileID: 0}
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_Focused:
+      m_Background: {fileID: 0}
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_OnNormal:
+      m_Background: {fileID: 0}
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_OnHover:
+      m_Background: {fileID: 0}
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_OnActive:
+      m_Background: {fileID: 0}
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_OnFocused:
+      m_Background: {fileID: 0}
+      m_TextColor: {r: 0, g: 0, b: 0, a: 1}
+    m_Border:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Margin:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Padding:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Overflow:
+      m_Left: 0
+      m_Right: 0
+      m_Top: 0
+      m_Bottom: 0
+    m_Font: {fileID: 0}
+    m_FontSize: 0
+    m_FontStyle: 0
+    m_Alignment: 0
+    m_WordWrap: 0
+    m_RichText: 1
+    m_TextClipping: 0
+    m_ImagePosition: 0
+    m_ContentOffset: {x: 0, y: 0}
+    m_FixedWidth: 0
+    m_FixedHeight: 0
+    m_StretchWidth: 1
+    m_StretchHeight: 0
+  life_count: 0
+  VidaMas1: {fileID: 2800000, guid: 9e62fb6d35ee30c43b208511074a66c7, type: 3}
+  VidaMas2: {fileID: 2800000, guid: aed32285712d49c4f81e2fd4662ed2f0, type: 3}
+  VidaMas3: {fileID: 2800000, guid: 1d0dbcb5413670049bab5aa172ba3fd5, type: 3}
+  VidaMas4: {fileID: 2800000, guid: 48c6baa76a04ce745add22a751d509f5, type: 3}
+  VidaMas5: {fileID: 2800000, guid: 83598e7443db0f44fa9c685358550a08, type: 3}
+  VidaMenos1: {fileID: 2800000, guid: 978131a71fa1524458b8bf206d504d58, type: 3}
+  VidaMenos2: {fileID: 2800000, guid: 5c92ec240b774f1488283ef14f67d9f2, type: 3}
+  VidaMenos3: {fileID: 2800000, guid: 6e93225dd5224454d8a7f36413d67e26, type: 3}
+  VidaMenos4: {fileID: 2800000, guid: 5970455c3e5f380408893989b4df3f02, type: 3}
+  VidaMenos5: {fileID: 2800000, guid: fdf88ca329e350940b79a64198087cc3, type: 3}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 169682}
+  m_IsPrefabParent: 1

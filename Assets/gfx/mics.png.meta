@@ -1,0 +1,195 @@
+fileFormatVersion: 2
+guid: 0cbb98fc45e85c142bce878619305cc0
+timeCreated: 1465053526
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: mics_0
+    21300002: mics_1
+    21300004: mics_2
+    21300006: trick_shot
+    21300008: mics_4
+    21300010: mics_5
+    21300012: mics_6
+    21300014: mics_7
+    21300016: mics_8
+    21300018: mics_9
+    21300020: mics_10
+    21300022: mics_11
+    21300024: clear_shot
+    21300026: shadow
+    21300028: dot
+    21300030: rim_top
+    21300032: rim_bottom
+    21300034: basketball
+    21300036: net_1
+    21300038: net_2
+    21300040: net_3
+    21300042: net_4
+    21300044: mics_3
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 512
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 50
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: iPhone
+    maxTextureSize: 1024
+    textureFormat: -2
+    compressionQuality: 50
+    allowsAlphaSplitting: 0
+  spriteSheet:
+    sprites:
+    - name: mics_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 212
+        width: 164
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -67, y: 44}
+        - {x: -82, y: 28}
+        - {x: -82, y: -8}
+        - {x: -44, y: -44}
+        - {x: -27, y: -39}
+        - {x: -22, y: -33}
+        - {x: -8, y: -44}
+        - {x: 82, y: -44}
+        - {x: 82, y: 34}
+        - {x: 81, y: 44}
+    - name: mics_1
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 201
+        width: 162
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 49, y: 49.5}
+        - {x: -56, y: 49.5}
+        - {x: -81, y: 38.5}
+        - {x: -81, y: -3.5}
+        - {x: -23, y: -49.5}
+        - {x: 30, y: -49.5}
+        - {x: 81, y: -35.5}
+        - {x: 81, y: 2.5}
+        - {x: 51, y: 48.5}
+    - name: mics_2
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 176
+        width: 52
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mics_3
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 149
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16, y: 16}
+        - {x: -16, y: -14}
+        - {x: -15, y: -16}
+        - {x: 16, y: -16}
+        - {x: 16, y: 15}
+        - {x: 13, y: 16}
+    - name: mics_4
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 165
+        width: 73
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mics_5
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 143
+        width: 45
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: mics_6
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 22
+        width: 100
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -29, y: 50.5}
+        - {x: -50, y: 25.5}
+        - {x: -50, y: -30.5}
+        - {x: -24, y: -50.5}
+        - {x: 25, y: -50.5}
+        - {x: 50, y: -38.5}
+        - {x: 50, y: 36.5}
+        - {x: 42, y: 50.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
